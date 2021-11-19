@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação Final TPA</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+</head>
+<body>
+    
+  <div class="form">
+    <div class="title">Avaliação Final de TPA</div>
+    <div class="subtitle">Preencha os Campos da Forma Correta!!</div>
+    <div class="input-container ic1">
+      <input id="nome" class="input" type="text" placeholder=" " />
+      <div class="cut"></div>
+      <label for="nome" class="placeholder">nome</label>
+    </div>
+    <div class="input-container ic2">
+      <input id="valor" class="input" type="number" step="any" placeholder=" " />
+      <div class="cut"></div>
+      <label for="valor" class="placeholder">valor aplicado mensalmente</label>
+    </div>
+    <div class="input-container ic2">
+      <input id="juros" class="input" type="number" step="any" placeholder=" " />
+      <div class="cut"></div>
+      <label for="juros" class="placeholder">taxa de juros</label>
+    </div>
+    <div class="input-container ic2">
+      <input id="parcelas" class="input" type="number" step="any" placeholder=" " />
+      <div class="cut"></div>
+      <label for="parcelas" class="placeholder">numero de parcelas mensais</label>
+    </div>
+    <button class="submit" id="calcular">calcular</button>
+    <br><br>
+    <div class="subtitle" id="resultado"></div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
